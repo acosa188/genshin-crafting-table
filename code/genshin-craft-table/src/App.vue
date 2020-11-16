@@ -1,8 +1,14 @@
 <template>
-  <div class="container-fluid">
-    <Header />
-    <div class="container">
-      <IntroPage />
+  <div class="appClass">
+    <video poster="./assets/images/GenshinBGPic.jpg" loop="loop" muted="muted" style="width: 1920px; height: 1080px;" playsInline autoPlay id="videoBG">
+        <source src="./assets/videos/genshinBG.mp4" type="video/mp4" > 
+      </video>
+    <div class="container-fluid">
+      
+      <Header />
+      <div class="container">
+        <IntroPage />
+      </div>
     </div>
   </div>
 </template>
@@ -27,19 +33,18 @@ body,html{
   overflow-x:hidden;
 }
 
-body{
-  background-image: url(assets/images/GenshinBackground.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 #app {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #333;
-  
-  height: 100vh;
+  color: #333; 
 }
+
+#videoBG{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
 </style>
