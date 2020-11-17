@@ -7,7 +7,10 @@
       
       <Header />
       <div class="container">
-        <IntroPage />
+        <keep-alive> 
+          <component :is="storeCurrentPage">
+          </component>
+        </keep-alive>
       </div>
     </div>
   </div>
@@ -16,17 +19,29 @@
 <script>
 import Header from './components/Header';
 import IntroPage from './components/IntroPage';
+import CharacterPage from './components/CharacterPage';
+import { useStore } from 'vuex';
+import { computed } from 'vue';
 
 export default {
   name: 'App',
   components: {
     Header,
-    IntroPage
+    IntroPage,
+    CharacterPage
+  },
+  setup(){
+    const store = useStore();
+
+    const storeCurrentPage = computed(() => store.state.currentPage);
+
+    return{storeCurrentPage};
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 body,html{
   height: 100%;
