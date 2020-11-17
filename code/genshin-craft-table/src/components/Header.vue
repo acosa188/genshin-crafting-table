@@ -12,6 +12,6 @@
 }
 
 img.logo {
-  width: 13%;
+  width: 7%;
 }
 </style>

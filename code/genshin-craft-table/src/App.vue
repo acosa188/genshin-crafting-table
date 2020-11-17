@@ -6,12 +6,13 @@
     <div class="container-fluid">
       
       <Header />
-      <div class="container">
-        <keep-alive> 
-          <component :is="storeCurrentPage">
-          </component>
-        </keep-alive>
-      </div>
+      
+      <keep-alive> 
+        <component :is="storeCurrentPage">
+        </component>
+      </keep-alive>
+      
+
     </div>
   </div>
 </template>

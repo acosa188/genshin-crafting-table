@@ -1,6 +1,6 @@
 <template>
     <div class="genshinIconClass" :style="styleObject" @click="clickHandler">
-        <img :src="iconImageSrc" alt="genshin-icon">
+        <img :src="iconImageSrc" alt="genshin-icon" height="106">
         <p>{{name}}</p>
     </div>
 </template>

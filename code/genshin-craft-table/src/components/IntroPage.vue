@@ -1,16 +1,18 @@
 <template>
-  <div class="introPageClass">
-    <p class="h2">Select a Character</p>
-
-    <div class="d-flex flex-wrap justify-content-center">
-        <div v-for="(character, index) in Characters" :key="index">
-            <GenshinIcon :height="135" :width="110" 
-            :name="character.name" 
-            :iconImageSrc="character.icon" 
-            :clickHandler="clickIcon(character.name)" />   
+  <div class="container">
+      <div class="introPageClass">
+        <p class="h2">Select a Character</p>
+    
+        <div class="d-flex flex-wrap justify-content-center">
+            <div v-for="(character, index) in Characters" :key="index">
+                <GenshinIcon :height="135" :width="110" 
+                :name="character.name" 
+                :iconImageSrc="character.icon" 
+                :clickHandler="clickIcon(character.name)" />   
+            </div>
         </div>
-    </div>
-
+    
+      </div>
   </div>
 </template>
 
