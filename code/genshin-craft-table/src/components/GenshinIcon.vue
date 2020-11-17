@@ -32,6 +32,7 @@ export default {
 .genshinIconClass{
     background-color: #ffffffb2;
     border-radius: 5px;
+    margin: 10px;
 }
 
 .genshinIconClass:hover,
