@@ -1,0 +1,482 @@
+{
+    "level1": {
+        "baseStats":{
+            "maxHP": "1020",
+            "atk": "47",
+            "def": "63",
+            "elementalMastery": "0",
+            "maxStamina": "240"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "0%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    },
+    "level20": {
+        "baseStats":{
+            "maxHP": "2646",
+            "atk": "61",
+            "def": "165",
+            "elementalMastery": "0",
+            "maxStamina": "240"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "0%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    },
+    "ascension1st": {
+        "baseStats":{
+            "maxHP": "3521",
+            "atk": "81",
+            "def": "219",
+            "elementalMastery": "0",
+            "maxStamina": "240"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "0%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    },
+    "level40": {
+        "baseStats":{
+            "maxHP": "5268",
+            "atk": "121",
+            "def": "328",
+            "elementalMastery": "0",
+            "maxStamina": "240"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "0%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    },
+    "ascension2nd": {
+        "baseStats":{
+            "maxHP": "5889",
+            "atk": "136",
+            "def": "366",
+            "elementalMastery": "0",
+            "maxStamina": "240"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "7.20%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    },
+    "level50": {
+        "baseStats":{
+            "maxHP": "6776",
+            "atk": "156",
+            "def": "421",
+            "elementalMastery": "0",
+            "maxStamina": "355"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "7.20%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    },
+    "ascension3rd": {
+        "baseStats":{
+            "maxHP": "7604",
+            "atk": "175",
+            "def": "473",
+            "elementalMastery": "0",
+            "maxStamina": "240"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "14.40%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    },
+    "level60": {	
+        "baseStats":{
+            "maxHP": "8500",
+            "atk": "196",
+            "def": "528",
+            "elementalMastery": "0",
+            "maxStamina": "240"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "14.40%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    },
+    "ascension4th": {
+        "baseStats":{
+            "maxHP": "9121",
+            "atk": "210",
+            "def": "567",
+            "elementalMastery": "0",
+            "maxStamina": "240"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "14.40%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    },
+    "level70": {
+        "baseStats":{
+            "maxHP": "10025",
+            "atk": "231",
+            "def": "623",
+            "elementalMastery": "0",
+            "maxStamina": "240"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "14.40%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    },
+    "ascension5th": { 		
+        "baseStats":{
+            "maxHP": "10647",
+            "atk": "245",
+            "def": "662",
+            "elementalMastery": "0",
+            "maxStamina": "240"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "21.60%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    },
+    "level80": {
+        "baseStats":{
+            "maxHP": "11561",
+            "atk": "266",
+            "def": "719",
+            "elementalMastery": "0",
+            "maxStamina": "240"
+        },
+        "advanceStats":{
+            "critRate": "5%",
+            "critDamage": "50%",
+            "healingBonus": "0%",
+            "incomingHealingBonus": "0%",
+            "energyRecharge": "100%",
+            "reduceCD": "0%",
+            "powerfulShield": "0%"
+        },
+        "elementalType": {
+            "pyroDamageBonus": "0%",
+            "pyroRes": "0%",
+            "hydroDamageBonus": "21.60%",
+            "hydroRes": "0%",
+            "dendroDamageBonus": "0%",
+            "dendroRes": "0%",
+            "electroDamageBonus": "0%",
+            "electroRes": "0%",
+            "anemoDamageBonus": "0%",
+            "anemoRes": "0%",
+            "cryoDamageBonus": "0%",
+            "cryoRes": "0%",
+            "geoDamageBonus": "0%",
+            "geoRes": "0%",
+            "physicalDamageBonus": "0%",
+            "physicalRes": "0%"
+        },
+        "additionalStats": {
+            "atk%": "0%",
+            "hp%": "0%"
+        }
+    }
+}
