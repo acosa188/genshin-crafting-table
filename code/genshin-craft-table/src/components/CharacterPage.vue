@@ -24,50 +24,50 @@
           <!-- Character Details -->
           <div class="characterDetails">
               <div class="d-flex">
-                  <img src="" alt="" height="106" class="m-4">
+                  <img :src="characterIcon" alt="" height="106" class="mx-4 mb-4">
                   <div>
-                      <h2 class="h2">Name</h2>
+                      <h2 class="h2">{{characterName}}</h2>
                       <span class="h4">Element</span><span class="h4 ml-3">• Weapon Type</span>
                   </div>  
               </div>
               <div class="h4">Base Stats</div>
               <div class="statsContainer">
-                  <GenshinStat name="Max HP" :stat="11453" :addStat="744"/>
-                  <GenshinStat name="ATK" :stat="792" />
-                  <GenshinStat name="DEF" :stat="692" />
-                  <GenshinStat name="Elemental Mastery" :stat="40" />
-                  <GenshinStat name="Max Stamina" :stat="240" />
+                  <GenshinStat name="Max HP" :stat="toNumbers(characterBaseStat.baseStats.maxHP)"/>
+                  <GenshinStat name="ATK" :stat="toNumbers(characterBaseStat.baseStats.atk)" />
+                  <GenshinStat name="DEF" :stat="toNumbers(characterBaseStat.baseStats.def)" />
+                  <GenshinStat name="Elemental Mastery" :stat="toNumbers(characterBaseStat.baseStats.elementalMastery)" />
+                  <GenshinStat name="Max Stamina" :stat="toNumbers(characterBaseStat.baseStats.maxStamina)" />
               </div>
               
               <div class="h4 mt-5">Advance Stats</div>
               <div class="statsContainer">
-                  <GenshinStat name="CRIT Rate" :percentage="30.3"/>
-                  <GenshinStat name="CRIT DMG" :percentage="122.5" />
-                  <GenshinStat name="Healing Bonus" :percentage="0.0" />
-                  <GenshinStat name="Incoming Healing Bonus" :percentage="0.0" />
-                  <GenshinStat name="Energy Recharge" :percentage="108.3" />
-                  <GenshinStat name="Reduce CD" :percentage="0" />
-                  <GenshinStat name="Powerful Shield" :percentage="0" />
+                  <GenshinStat name="CRIT Rate" :percentage="toNumbers(characterBaseStat.advanceStats.critRate)"/>
+                  <GenshinStat name="CRIT DMG" :percentage="toNumbers(characterBaseStat.advanceStats.critDamage)" />
+                  <GenshinStat name="Healing Bonus" :percentage="toNumbers(characterBaseStat.advanceStats.healingBonus)" />
+                  <GenshinStat name="Incoming Healing Bonus" :percentage="toNumbers(characterBaseStat.advanceStats.incomingHealingBonus)" />
+                  <GenshinStat name="Energy Recharge" :percentage="toNumbers(characterBaseStat.advanceStats.energyRecharge)" />
+                  <GenshinStat name="Reduce CD" :percentage="toNumbers(characterBaseStat.advanceStats.reduceCD)" />
+                  <GenshinStat name="Powerful Shield" :percentage="toNumbers(characterBaseStat.advanceStats.powerfulShield)" />
               </div>
 
               <div class="h4 mt-5">Elemental Type</div>
               <div class="statsContainer">
-                  <GenshinStat name="Pyro DMG Bonus" :percentage="30.3"/>
-                  <GenshinStat name="Pyro RES" :percentage="122.5" />
-                  <GenshinStat name="Hydro DMG Bonus" :percentage="0.0" />
-                  <GenshinStat name="Hydro RES" :percentage="0.0" />
-                  <GenshinStat name="Dendro DMG Bonus" :percentage="108.3" />
-                  <GenshinStat name="Dendro RES" :percentage="0" />
-                  <GenshinStat name="Electro DMG Bonus" :percentage="0" />
-                  <GenshinStat name="Electro RES" :percentage="0" />
-                  <GenshinStat name="Anemo DMG Bonus" :percentage="0" />
-                  <GenshinStat name="Anemo RES" :percentage="0" />
-                  <GenshinStat name="Cryo DMG Bonus" :percentage="0" />
-                  <GenshinStat name="Cryo RES" :percentage="0" />
-                  <GenshinStat name="Geo DMG Bonus" :percentage="0" />
-                  <GenshinStat name="Geo RES" :percentage="0" />
-                  <GenshinStat name="Physical DMG Bonus" :percentage="0" />
-                  <GenshinStat name="Physical RES" :percentage="0" />
+                  <GenshinStat name="Pyro DMG Bonus" :percentage="toNumbers(characterBaseStat.elementalType.pyroDamageBonus)"/>
+                  <GenshinStat name="Pyro RES" :percentage="toNumbers(characterBaseStat.elementalType.pyroRes)" />
+                  <GenshinStat name="Hydro DMG Bonus" :percentage="toNumbers(characterBaseStat.elementalType.hydroDamageBonus)" />
+                  <GenshinStat name="Hydro RES" :percentage="toNumbers(characterBaseStat.elementalType.hydroRes)" />
+                  <GenshinStat name="Dendro DMG Bonus" :percentage="toNumbers(characterBaseStat.elementalType.dendroDamageBonus)" />
+                  <GenshinStat name="Dendro RES" :percentage="toNumbers(characterBaseStat.elementalType.dendroRes)" />
+                  <GenshinStat name="Electro DMG Bonus" :percentage="toNumbers(characterBaseStat.elementalType.electroDamageBonus)" />
+                  <GenshinStat name="Electro RES" :percentage="toNumbers(characterBaseStat.elementalType.electroRes)" />
+                  <GenshinStat name="Anemo DMG Bonus" :percentage="toNumbers(characterBaseStat.elementalType.anemoDamageBonus)" />
+                  <GenshinStat name="Anemo RES" :percentage="toNumbers(characterBaseStat.elementalType.anemoRes)" />
+                  <GenshinStat name="Cryo DMG Bonus" :percentage="toNumbers(characterBaseStat.elementalType.cryoDamageBonus)" />
+                  <GenshinStat name="Cryo RES" :percentage="toNumbers(characterBaseStat.elementalType.cryoRes)" />
+                  <GenshinStat name="Geo DMG Bonus" :percentage="toNumbers(characterBaseStat.elementalType.geoDamageBonus)" />
+                  <GenshinStat name="Geo RES" :percentage="toNumbers(characterBaseStat.elementalType.geoRes)" />
+                  <GenshinStat name="Physical DMG Bonus" :percentage="toNumbers(characterBaseStat.elementalType.physicalDamageBonus)" />
+                  <GenshinStat name="Physical RES" :percentage="toNumbers(characterBaseStat.elementalType.physicalRes)" />
               </div>
 
           </div>
@@ -92,6 +92,9 @@
 import SearchIcon from "../assets/images/search-solid.svg";
 import CharacterList from "./CharacterList";
 import GenshinStat from './GenshinStat';
+import { useStore } from 'vuex';
+
+
 
 export default {
   data() {
@@ -102,6 +105,31 @@ export default {
   components:{
       CharacterList,
       GenshinStat
+  },
+  computed:{
+    characterBaseStat(){
+      const store = useStore();
+      let baseStats = store.state.baseStats; 
+     
+      return baseStats;
+    },
+    characterName(){
+      const store = useStore();
+      
+      let charName = store.state.characterSelected;
+      return charName;
+    },
+    characterIcon(){
+      const store = useStore();
+
+      let icon = store.state.characterIcon;
+      return icon;
+    }
+  },
+  methods:{
+    toNumbers(str){
+      return parseFloat(str.replace('%',''));
+    }
   }
 };
 </script>

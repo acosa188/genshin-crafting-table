@@ -4,6 +4,7 @@ import { createStore } from 'vuex'
 const state = {
     currentPage: 'IntroPage',
     characterSelected: '',
+    characterIcon: '',
     baseStats: ''
 }
 
@@ -17,6 +18,9 @@ const mutations = {
     },
     changeCharacterStats(state, charJsonFile){
         state.baseStats = charJsonFile;
+    },
+    changeCharacterIcon(state, icon){
+        state.characterIcon = icon;
     }
 
 }

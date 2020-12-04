@@ -2,7 +2,7 @@
   <div class="container">
       <div class="introPageClass">
         <p class="h2">Select a Character</p>  
-        <CharacterList normal="true"/> 
+        <CharacterList :normal="true"/> 
       </div>
   </div>
 </template>

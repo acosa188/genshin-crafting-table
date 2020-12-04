@@ -176,11 +176,17 @@ export default {
     clickIcon(name) {
       let store = useStore();
 
+      let images = require.context('../assets/images', true);
+
+      let dynamicImage = images(`./${name}.png`);
+      
       return function () {
         store.commit("characterSelected", name);
         store.commit("changePage", "CharacterPage");
+        store.commit("changeCharacterIcon", dynamicImage);
         let charStat = baseCharacterStats(name);
-        store.commit("changeCharacterStats", charStat);
+        let level1Stat = charStat.level1;
+        store.commit("changeCharacterStats", level1Stat);
       };
     },
   },
