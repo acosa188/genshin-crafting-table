@@ -1,17 +1,29 @@
 <template>
-  <div>
-
+  <div v-if="!normal">
     <div class="horizontal-scroll-wrapper rectangles">
       <div v-for="(character, index) in Characters" :key="index">
-      <GenshinIcon
-        class="genshinCharacter"
-        :height="135"
-        :width="110"
-        :name="character.name"
-        :iconImageSrc="character.icon"
-        :clickHandler="clickIcon(character.name)"
-      />
+        <GenshinIcon
+          class="genshinCharacter"
+          :height="135"
+          :width="110"
+          :name="character.name"
+          :iconImageSrc="character.icon"
+          :clickHandler="clickIcon(character.name)"
+        />
+      </div>
     </div>
+  </div>
+  <div v-else>
+    <div class="d-flex flex-wrap justify-content-center">
+      <div v-for="(character, index) in Characters" :key="index">
+        <GenshinIcon
+          :height="135"
+          :width="110"
+          :name="character.name"
+          :iconImageSrc="character.icon"
+          :clickHandler="clickIcon(character.name)"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -46,8 +58,9 @@ import XiaoIcon from "../assets/images/Xiao.png";
 import XingqiuIcon from "../assets/images/Xingqiu.png";
 
 import { useStore } from "vuex";
+import { baseCharacterStats } from "../services/characterServices";
 export default {
-     data() {
+  data() {
     return {
       Characters: [
         {
@@ -153,6 +166,9 @@ export default {
       ],
     };
   },
+  props: {
+    normal: Boolean,
+  },
   components: {
     GenshinIcon,
   },
@@ -162,54 +178,61 @@ export default {
 
       return function () {
         store.commit("characterSelected", name);
+        store.commit("changePage", "CharacterPage");
+        let charStat = baseCharacterStats(name);
+        store.commit("changeCharacterStats", charStat);
       };
     },
   },
-}
+};
 </script>
 
 <style scoped>
-::-webkit-scrollbar{width:2px;height:2px;}
-::-webkit-scrollbar-button{width:2px;height:2px;}
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  width: 2px;
+  height: 2px;
+}
 
-div{
-  box-sizing:border-box;
+div {
+  box-sizing: border-box;
 }
 
 body {
   background: #111;
 }
 
-.horizontal-scroll-wrapper{
-  position:absolute;
-  display:block;
+.horizontal-scroll-wrapper {
+  position: absolute;
+  display: block;
   text-align: center;
-  top:0;
-  right:0;
-  width:170px;
-  height:100vw;
-  margin:0;
-  overflow-y:auto;
-  overflow-x:hidden;
-  transform:rotate(-90deg) translateX(58vw);
-  transform-origin:right bottom;
-}
-
-.horizontal-scroll-wrapper > div{
-  display:block;
-  transform:rotate(90deg);
+  top: 0;
+  right: 0;
+  width: 170px;
+  height: 100vw;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg) translateX(58vw);
   transform-origin: right bottom;
 }
 
-
-.rectangles{
-  bottom:0px;
-}
-
-.rectangles > div{
-  width:130px;
-  transform:rotate(90deg) translateY(125px);
+.horizontal-scroll-wrapper > div {
+  display: block;
+  transform: rotate(90deg);
   transform-origin: right bottom;
 }
 
+.rectangles {
+  bottom: 0px;
+}
+
+.rectangles > div {
+  width: 130px;
+  transform: rotate(90deg) translateY(125px);
+  transform-origin: right bottom;
+}
 </style>

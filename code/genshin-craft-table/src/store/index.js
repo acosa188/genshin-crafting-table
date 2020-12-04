@@ -1,17 +1,24 @@
 import { createStore } from 'vuex'
 
+
 const state = {
     currentPage: 'IntroPage',
-    characterSelected: ''
+    characterSelected: '',
+    baseStats: ''
 }
 
 const mutations = {
     characterSelected(state, name){
         state.characterSelected = name;
-        state.currentPage = 'CharacterPage';
 
-        console.log(state.characterSelected)
+    },
+    changePage(state, page){
+        state.currentPage = page;
+    },
+    changeCharacterStats(state, charJsonFile){
+        state.baseStats = charJsonFile;
     }
+
 }
 
 export default createStore({

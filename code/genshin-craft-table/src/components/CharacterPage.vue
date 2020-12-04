@@ -83,7 +83,8 @@
     </div>
 
     <!-- Character List --> 
-    <CharacterList />
+    <CharacterList :normal="false"/>
+   
   </div>
 </template>
 
@@ -95,7 +96,7 @@ import GenshinStat from './GenshinStat';
 export default {
   data() {
     return {
-      SearchIcon   
+      SearchIcon
     };
   },
   components:{
